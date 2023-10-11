@@ -2,11 +2,11 @@
 ## Proyecto : Modelos de predicción para Fraudes en Transacciones 
 ### Introducción
 Este proyecto se realizó con un dataset disponible en [Kaggle](https://www.kaggle.com/datasets/jainilcoder/online-payment-fraud-detection?resource=download). Este dataset incluye datos sobre transacciones bancarias de varios tipos:
--Cash In
--Cash Out
--Transfers
--Payment
--Debit
++ Cash In
++ Cash Out
++ Transfers
++ Payment
++ Debit
 
 Cada uno de ellos contiene información del monto de la transacción, cantidad que había en la cuenta, lo que sobró en la cuenta, el número de cuenta de dónde salió y los mismos datos para la cuenta a donde llegó el dinero.
 
