@@ -38,13 +38,13 @@ Para realizar el entrenamiento con todos los modelos se siguieron los siguientes
 
 Para analizar los resultados se usó una matriz de confusión, un accuracy_score y el classification_report para comparar ambos modelos. Posteriormente, utilicé KFold para la validación cruzada. Los primeros resultados se encuentran en cada uno de los [notebooks](https://github.com/aramsdev/MachineLearningBedu/tree/main/notebooks). La de KFold se encuentra en el notebook de [TreeClassifier](https://github.com/aramsdev/MachineLearningBedu/blob/main/notebooks/DecisionTreeClassifier.ipynb) al final.
 
-### [Regresión Lineal](https://github.com/aramsdev/MachineLearningBedu/blob/main/notebooks/LinearRegression.ipynb)
+### Regresión Lineal
 
 Se inició este proyecto con la idea de encontrar alguna correlación entre las distintas variables, por esto hice uso de la [Regresión Lineal](https://github.com/aramsdev/MachineLearningBedu/blob/main/notebooks/LinearRegression.ipynb).
 
-### [Árboles de Decisión](https://github.com/aramsdev/MachineLearningBedu/blob/main/notebooks/DecisionTreeClassifier.ipynb)
+### Árboles de Decisión
 
-A través de los árboles de decisión podemos realizar predicciones que determinen futuras transacciones. 
+A través de los árboles de decisión podemos realizar predicciones que determinen futuras transacciones, aquí se encuentra el [notebook](https://github.com/aramsdev/MachineLearningBedu/blob/main/notebooks/DecisionTreeClassifier.ipynb). 
 
 ## Conclusiones
 Con base en los distintos trabajos de análisis y definición de modelos se dan las siguientes conclusiones:
