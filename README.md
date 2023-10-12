@@ -51,11 +51,10 @@ Con base en los distintos trabajos de análisis y definición de modelos se dan 
 
 Los conjuntos de datos de CASH IN, PAYMENT, y DEBIT no contienen datos que puedan ser relevantes para el análisis de transacciones de fraude ya que ninguna de las transacciones en el dataset de esos tipos, están catalogados como fraude.
 
-Hay algunos casos raros, en específico 16, que están catalogados como FlaggedFraud. El significado de esta característica es desconocida por lo que es algo que investigaré a futuro.
+Hay algunos casos raros, en específico 16, que están catalogados como FlaggedFraud. El significado de esta característica es desconocida por lo que es algo que investigaré a futuro. Aunque el modelo funciona, creo que esta característica podría servir para enviar esas transacciones a un humano para que identifique y siga entrenando al modelo poco a poco. Además, creo que podría agregar una característica en la que si la transacción no deja la cuenta vacía pero representa un porcentaje importante, ponerlo como posible Fraude y a partir de un humano, entrenar al modelo.
+
 
 Los mejores modelos de predicción fueron la regresión lineal y los árboles de decisión con diferencias mínimas, aunque con las matrices de confusión y demás, salieron resultados donde la precisión de la regresión lineal era de 71 y la del árbol de decisión era de 99. Sin embargo, con KFold logré identificar que no había diferencia alguna entre ambos modelos, era mínima.
-
-Aunque el modelo funciona, creo que el FlaggedFraud podría servir para enviar esas transacciones a un humano para que identifique y siga entrenando al modelo poco a poco. Además, creo que podría agregar una característica en la que si la transacción no deja la cuenta vacía pero representa un porcentaje importante, ponerlo como posible Fraude y a partir de un humano, entrenar al modelo.
 
 ## ☑️ Trabajo a futuro
 + Recabar información sobre las categorías incluidas en los conjuntos de datos pues algunos datos son desconocidos tales como el FlaggedFraud.
