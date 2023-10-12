@@ -16,9 +16,9 @@ Cada uno de ellos contiene información del monto de la transacción, cantidad q
 + Tomando como base la columna isFraud que determina si la transacción fue fraude o no, determinar el mejor modelo de predicción para inputs futuros.
 
 ## Hipótesis
-Yo creo que el dataset tiene ciertos datos que serán funcionales, sin embargo, creo que hay datos que podríamos dejar de lado ya que son alrededor de 6 millones y puede que no haya tantos "fraudes" en payments o en debit.
+Yo pienso que el dataset tiene ciertos datos que serán funcionales, sin embargo, creo que hay datos que podríamos dejar de lado ya que son alrededor de 6 millones y puede que no haya tantos "fraudes" en payments o en debit.
 
-Por otro lado, creo que la mejor forma de resolver este problema y poder predecir de mejor forma futuras transacciones, sería con un modelo supervisado ya que estuve leyendo en varias fuentes y mencionan que realizar diferentes modelos de supervisión y de no supervisión, los mejores para resolver problemas de tipo fraude eran esos.
+Debido a una investigación previa pude recabar información de distintos autores que mencionan el mejor modelo a utilizar para la resolución de distintos problemas como los fraudes. Debido a esto, opino que la mejor forma de resolver este problema para predecir de mejor forma futuras transacciones, sería utilizando un modelo supervisado.
 
 Por lo tanto, seguiré el camino de estas fuentes para resolver el proyecto.
 
