@@ -22,7 +22,7 @@ Debido a una investigación previa pude recabar información de distintos autore
 
 Por lo tanto, seguiré el camino de estas fuentes para resolver el proyecto.
 
-## Análisis Exploratorio y Final
+## Análisis Exploratorio 
 La mayor parte del [análisis](https://www.kaggle.com/datasets/jainilcoder/online-payment-fraud-detection?resource=download) lo hice por medio del Jupyter Notebook, hasta la última sesión que tuvimos fue que se mencionó que pudimos haber utilizado MYSQL Workbench para realizar búsquedas más rápidas y más cómodas. Hubiera sido de mucha ayuda pero realmente con el poco análisis que realicé, funcionó a la perfección.
 
 Al final, me dí cuenta que debí haber eliminado al menos un 50% de los datos porque utilicé un CrossTab para verificar el número de casos con fraudes que había en cada tipo de movimiento y resultó que los únicos que contaban con fraudes eran Transfers y Cash Out. Por lo que realizando eso, pude haber disminuido el tamaño del archivo y hacer funcionar mis modelos más rápido y quitarle algunos casos que no importaban. Al final esto no podría afectarlo ya que insertando valores de una transacción de posible fraude, al darle un valor de los otros tipos de transacciones, lo tomaba como no fraude.
