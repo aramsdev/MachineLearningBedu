@@ -36,7 +36,7 @@ Para realizar el entrenamiento con todos los modelos se siguieron los siguientes
 + Separar el conjunto de datos en entrenamiento y prueba (70%/30%).
 + Realizar el entrenamiento.
 
-Para analizar los resultados se usó una matriz de confusión, un accuracy_score y el classification_report para comparar ambos modelos. Posteriormente, utilicé KFold para la validación cruzada. Los primeros resultados se encuentran en cada uno de los [notebooks](https://github.com/aramsdev/MachineLearningBedu/tree/main/notebooks). La de KFold se encuentra en el notebook de [TreeClassifier](https://github.com/aramsdev/MachineLearningBedu/blob/main/notebooks/DecisionTreeClassifier.ipynb) al final.
+Para analizar los resultados se usó una matriz de confusión, un accuracy_score y el classification_report para comparar ambos modelos. Posteriormente, utilicé KFold para la validación cruzada. Los primeros resultados se encuentran en sus [notebooks](https://github.com/aramsdev/MachineLearningBedu/tree/main/notebooks) respectivos. La de KFold se encuentra en el notebook de [TreeClassifier](https://github.com/aramsdev/MachineLearningBedu/blob/main/notebooks/DecisionTreeClassifier.ipynb) al final.
 
 ### Regresión Lineal
 
