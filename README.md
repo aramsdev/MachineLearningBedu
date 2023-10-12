@@ -51,7 +51,7 @@ Con base en los distintos trabajos de análisis y definición de modelos se dan 
 
 Los conjuntos de datos de CASH IN, PAYMENT, y DEBIT no contienen datos que puedan ser relevantes para el análisis de transacciones de fraude ya que ninguna de las transacciones en el dataset de esos tipos, están catalogados como fraude.
 
-Hay algunos casos raros, en específico 16, que están catalogados como FlaggedFraud. No tengo conocimiento de lo que esta característica da a entender por lo que sería algo que podría investigar a futuro.
+Hay algunos casos raros, en específico 16, que están catalogados como FlaggedFraud. El significado de esta característica es desconocida por lo que es algo que investigaré a futuro.
 
 Los mejores modelos de predicción fueron la regresión lineal y los árboles de decisión con diferencias mínimas, aunque con las matrices de confusión y demás, salieron resultados donde la precisión de la regresión lineal era de 71 y la del árbol de decisión era de 99. Sin embargo, con KFold logré identificar que no había diferencia alguna entre ambos modelos, era mínima.
 
